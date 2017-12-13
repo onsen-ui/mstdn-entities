@@ -1,0 +1,9 @@
+{
+  "name": "mstdn-entities",
+  "version": "0.0.1",
+  "description": "mastodon entities package",
+  "main": "index.js",
+  "repository": "https://github.com/onsen-ui/mstdn-entities.git",
+  "author": "Onsen UI <onsen03@gmail.com>",
+  "license": "MIT"
+}
