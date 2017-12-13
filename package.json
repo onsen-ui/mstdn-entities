@@ -5,5 +5,11 @@
   "main": "index.js",
   "repository": "https://github.com/onsen-ui/mstdn-entities.git",
   "author": "Onsen UI <onsen03@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^21.1.8",
+    "jest": "^21.2.1",
+    "ts-jest": "^21.2.4",
+    "typescript": "^2.6.2"
+  }
 }
