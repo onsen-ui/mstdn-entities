@@ -1,0 +1,12 @@
+__mocks__/
+__tests__/
+coverage/
+node_modules/
+src/
+.eslintignore
+.eslintrc
+*.config.js
+tsconfig.json
+tslint.json
+*.lock
+.travis.yml
