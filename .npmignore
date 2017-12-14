@@ -9,3 +9,4 @@ src/
 tsconfig.json
 tslint.json
 *.lock
+.travis.yml
