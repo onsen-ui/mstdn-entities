@@ -2,7 +2,7 @@
   "name": "mstdn-entities",
   "version": "0.0.1",
   "description": "mastodon entities package",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "repository": "https://github.com/onsen-ui/mstdn-entities.git",
   "author": "Onsen UI <onsen03@gmail.com>",
   "license": "MIT",
@@ -19,5 +19,10 @@
     "clean": "rimraf ./lib",
     "prebuild": "npm run clean",
     "build": "tsc -p ./tsconfig.build.json"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.88",
+    "lodash": "^4.17.4",
+    "reflect-metadata": "^0.1.10"
   }
 }
