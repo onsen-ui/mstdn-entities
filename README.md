@@ -10,7 +10,9 @@ Currently, **Typescript is recommended**.
 
 # Install and Usage of Presets
 `$ npm install -S mstdn-entities` will be available some time soon
-the presets of Mastodon Entities Class are avalable.
+
+The presets of Mastodon Entities Class are avalable.
+
 ```
 import { Account } from 'mstdn-entities'
 YOUR_HTTP_CLIENT.get('/api/v1/accounts/verify_credentials') // as Promise<Object>
@@ -110,11 +112,11 @@ class CustomAccount extends Entity {
 }
 ```
 
-or babel user,
+or babel user, (untested)
 
 ```
-import * as moment from 'moment'
-import { Entity, convert, is } from 'mstdn-entities'
+import moment from 'moment'
+import { Entity, convert, is, param } from 'mstdn-entities'
 class CustomAccount extends Entity {
   @is(Number) id
   @param username
