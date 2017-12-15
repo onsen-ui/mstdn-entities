@@ -1,6 +1,8 @@
 # mstdn-entities
 [![Build Status](https://travis-ci.org/onsen-ui/mstdn-entities.svg?branch=master)](https://travis-ci.org/onsen-ui/mstdn-entities)
 [![Coverage Status](https://coveralls.io/repos/github/onsen-ui/mstdn-entities/badge.svg?branch=master)](https://coveralls.io/github/onsen-ui/mstdn-entities?branch=master)
+[![Dependency Status](https://beta.gemnasium.com/badges/github.com/onsen-ui/mstdn-entities.svg)](https://beta.gemnasium.com/projects/github.com/onsen-ui/mstdn-entities)
+[![Maintainability](https://api.codeclimate.com/v1/badges/d74705c287944504669b/maintainability)](https://codeclimate.com/github/onsen-ui/mstdn-entities/maintainability)
 
 This library provides Mastodon Entities Class (e.g. Account, Status) and API in order to generate them.
 
