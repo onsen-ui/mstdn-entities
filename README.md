@@ -1,6 +1,8 @@
 # mstdn-entities
 [![Build Status](https://travis-ci.org/onsen-ui/mstdn-entities.svg?branch=master)](https://travis-ci.org/onsen-ui/mstdn-entities)
 [![Coverage Status](https://coveralls.io/repos/github/onsen-ui/mstdn-entities/badge.svg?branch=master)](https://coveralls.io/github/onsen-ui/mstdn-entities?branch=master)
+[![Dependency Status](https://beta.gemnasium.com/badges/github.com/onsen-ui/mstdn-entities.svg)](https://beta.gemnasium.com/projects/github.com/onsen-ui/mstdn-entities)
+[![Maintainability](https://api.codeclimate.com/v1/badges/d74705c287944504669b/maintainability)](https://codeclimate.com/github/onsen-ui/mstdn-entities/maintainability)
 
 This library provides Mastodon Entities Class (e.g. Account, Status) and API in order to generate them.
 
@@ -10,7 +12,9 @@ Currently, **Typescript is recommended**.
 
 # Install and Usage of Presets
 `$ npm install -S mstdn-entities` will be available some time soon
-the presets of Mastodon Entities Class are avalable.
+
+The presets of Mastodon Entities Class are avalable.
+
 ```
 import { Account } from 'mstdn-entities'
 YOUR_HTTP_CLIENT.get('/api/v1/accounts/verify_credentials') // as Promise<Object>
@@ -110,11 +114,11 @@ class CustomAccount extends Entity {
 }
 ```
 
-or babel user,
+or babel user, (untested)
 
 ```
-import * as moment from 'moment'
-import { Entity, convert, is } from 'mstdn-entities'
+import moment from 'moment'
+import { Entity, convert, is, param } from 'mstdn-entities'
 class CustomAccount extends Entity {
   @is(Number) id
   @param username
